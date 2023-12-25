@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Reqres.CRUDWithoutBDD">
+      <class name="Reqres.DataDrivenTesting">
         <methods>
-          <include name="putUser"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- Reqres.CRUDWithoutBDD -->
+      </class> <!-- Reqres.DataDrivenTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
