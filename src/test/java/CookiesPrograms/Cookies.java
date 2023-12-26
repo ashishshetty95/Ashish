@@ -1,4 +1,4 @@
-package Cookies;
+package CookiesPrograms;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
