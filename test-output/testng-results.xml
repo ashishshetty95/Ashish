@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-26T22:26:29 GMT+05:30" name="Default suite" finished-at="2023-12-26T22:26:34 GMT+05:30" duration-ms="4229">
+  <suite started-at="2024-01-01T16:40:06 GMT+05:30" name="Default suite" finished-at="2024-01-01T16:40:06 GMT+05:30" duration-ms="736">
     <groups>
     </groups>
-    <test started-at="2023-12-26T22:26:29 GMT+05:30" name="Default test" finished-at="2023-12-26T22:26:34 GMT+05:30" duration-ms="4229">
-      <class name="Cookies.Cookies">
-        <test-method signature="fetchCookies()[pri:0, instance:Cookies.Cookies@6b927fb]" started-at="2023-12-26T22:26:29 GMT+05:30" name="fetchCookies" finished-at="2023-12-26T22:26:34 GMT+05:30" duration-ms="4098" status="PASS">
+    <test started-at="2024-01-01T16:40:06 GMT+05:30" name="Default test" finished-at="2024-01-01T16:40:06 GMT+05:30" duration-ms="736">
+      <class name="Mock.SerialDeserial">
+        <test-method signature="deserialObject()[pri:0, instance:Mock.SerialDeserial@6cf0e0ba]" started-at="2024-01-01T16:40:06 GMT+05:30" name="deserialObject" finished-at="2024-01-01T16:40:06 GMT+05:30" duration-ms="589" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchCookies -->
-      </class> <!-- Cookies.Cookies -->
+        </test-method> <!-- deserialObject -->
+      </class> <!-- Mock.SerialDeserial -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
